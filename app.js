@@ -5,6 +5,6 @@ app.get('/', function(req, res) {
   res.send('hello jenkins');
 });
 
-app.listen(process.env.Port || 5000);
+app.listen(process.env.Port || 80);
 
 module.exports = app;
